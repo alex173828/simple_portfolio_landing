@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <main class="page__content">
+        <header class="header">
+          <div class="logo">Madelyn Torff</div>
+          <nav class="nav">
+            <a href="#" class="nav__link">About</a>
+            <a href="#" class="nav__link">Projects</a>
+            <a href="#" class="nav__link">Contacts</a>
+          </nav>
+        </header>
+        <section class="first-display">
+          <div class="first-display__content">
+            <div class="section__label">UI/UX Designer</div>
+            <h1 class="title title_h1">Hello, my name is Madelyn Torff</h1>
+            <p class="first-display__descr">
+              Short text with details about you, what you do or your
+              professional career. You can add more information on the about
+              page.
+            </p>
+            <div class="first-display__actions">
+              <button class="btn btn_primary">Projects</button>
+              <button class="btn btn_outline">LinkedIn</button>
+            </div>
+          </div>
+          <img
+            src="./src/assets/img/first_display_bg.jpg"
+            srcset="./src/assets/img/first_display_bg@2x.jpg 2x"
+            alt="Madelyn Torff"
+            class="first-display__bg"
+          />
+        </section>
+        <section class="projects">
+          <h2 class="title title_h2 title_decorated">Projects</h2>
+          <div class="projects__list">
+            <div class="card">
+              <div class="card__content">
+                <h3 class="card__title">Project Name</h3>
+                <p class="card__descr">
+                  I created this personal project in order to show how to create
+                  an interface in Figma using a portfolio as an example.
+                </p>
+                <button class="btn btn_round">View Project</button>
+              </div>
+              <img
+                src="./src/assets/img/portfolio_1.jpg"
+                srcset="./src/assets/img/portfolio_1@2x.jpg 2x"
+                alt=""
+                class="card__img"
+              />
+            </div>
+            <div class="card card_direction_reverse">
+              <div class="card__content">
+                <h3 class="card__title">Project Name</h3>
+                <p class="card__descr">
+                  What was your role, your deliverables, if the project was
+                  personal, freelancing.
+                </p>
+                <button class="btn btn_round">View Project</button>
+              </div>
+              <img
+                src="./src/assets/img/portfolio_2.jpg"
+                srcset="./src/assets/img/portfolio_2@2x.jpg 2x"
+                alt=""
+                class="card__img"
+              />
+            </div>
+            <div class="card">
+              <div class="card__content">
+                <h3 class="card__title">Project Name</h3>
+                <p class="card__descr">
+                  You can also add in this description the type of the project,
+                  if it was for web, mobile, electron.
+                </p>
+                <button class="btn btn_round">View Project</button>
+              </div>
+              <img
+                src="./src/assets/img/portfolio_3.jpg"
+                srcset="./src/assets/img/portfolio_3@2x.jpg 2x"
+                alt=""
+                class="card__img"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="contacts">
+          <h2 class="title title_h2 title_decorated">Contacts</h2>
+          <form action="" class="form">
+            <div class="field form__field">
+              <label for="form-name" class="field__label">Name</label>
+              <input id="form-name" type="text" class="field__input" />
+            </div>
+            <div class="field form__field">
+              <label for="form-email" class="field__label">Email</label>
+              <input id="form-email" type="text" class="field__input" />
+            </div>
+            <div class="field form__field">
+              <label for="form-message" class="field__label">Message</label>
+              <textarea
+                id="form-message"
+                type="text"
+                class="field__textarea"
+                rows="11"
+              ></textarea>
+            </div>
+            <button class="btn btn_primary">Send</button>
+          </form>
+        </section>
+        <footer class="footer">
+          <div class="socials">
+            <a href="#" class="socials__link">
+              <img
+                src="./src/assets/icons/email.svg"
+                alt="email"
+                class="socials__icon"
+              />
+            </a>
+          </div>
+          <p class="copyright">Madelyn Torff 2024</p>
+        </footer>
+      </main>
+      <img
+        src="./src/assets/icons/footer_bg.svg"
+        alt=""
+        class="footer__decor"
+      />
+    </div>
+  </body>
+</html>
